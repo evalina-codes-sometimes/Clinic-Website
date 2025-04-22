@@ -1,0 +1,59 @@
+.header{
+    background-color: #00007C;
+    height: 100px;
+    width: 100%;
+    font-size: medium;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    color: white;
+}
+
+
+body{
+    margin-top: -20px;
+    background-color: white;
+    margin-left: 100px;
+    text-align: center;
+}
+p{ 
+    color: #031927;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #9EC5A9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar img {
+    display: block;
+    margin: auto;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+  }
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #8CBA99;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover/*:not(.active)*/ {
+    background-color: #73AB83;
+    color: white;
+  }
