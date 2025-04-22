@@ -3,20 +3,46 @@
     height: 100px;
     width: 100%;
     font-size: medium;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Verdana, sans-serif;
     text-align: center;
     color: white;
 }
 
+.header h1 {
+    text-align: center;
+    padding: 35px 0;
+    max-height: 100px;
+}
+body table {
+    width: 100%;
+    text-align: center;
+}
+
+body table, th, td{
+    border: 1px solid;
+    margin: 0px;
+    border-width: none;
+}
 
 body{
-    margin-top: -20px;
+    margin-top: -21px;
+    margin-right: -5px;
     background-color: white;
     margin-left: 100px;
     text-align: center;
 }
 p{ 
     color: #031927;
+}
+body img {
+    height: auto;
+    width: 22% ;
+    outline: auto;
+    margin-inline: 25px;
+}
+body h6{
+    display: inline;
+    margin-inline: 40px;
 }
 
 .sidebar {
@@ -32,6 +58,7 @@ p{
     overflow: auto;
   }
   .sidebar img {
+    outline: none;
     display: block;
     margin: auto;
     background-color: white;
@@ -41,7 +68,7 @@ p{
   /* Sidebar links */
   .sidebar a {
     display: block;
-    color: white;
+    color: navy;
     padding: 16px;
     text-decoration: none;
   }
@@ -49,11 +76,21 @@ p{
   /* Active/current link */
   .sidebar a.active {
     background-color: #8CBA99;
-    color: white;
+    color: navy;
   }
   
   /* Links on mouse-over */
   .sidebar a:hover/*:not(.active)*/ {
     background-color: #73AB83;
-    color: white;
+    color: navy;
+  }
+
+  .mandate ul {
+    list-style: disc;
+  }
+  .mandate { 
+    text-align: left;
+  }
+  .mandate h3 {
+    padding-left: 20px;
   }
