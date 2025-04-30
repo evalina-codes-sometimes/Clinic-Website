@@ -1,3 +1,9 @@
+title{
+  display:contents;
+}
+link{
+  display: contents;
+}
 .header{
     background-color: #00007C;
     height: 100px;
@@ -10,8 +16,9 @@
 
 .header h1 {
     text-align: center;
-    padding: 35px 0;
+    padding: 25px 0;
     max-height: 100px;
+    font-size:xxx-large;
 }
 body table {
     width: 100%;
@@ -25,7 +32,7 @@ body table, th, td{
 }
 
 body{
-    margin-top: -21px;
+    margin-top: -32px;
     margin-right: -5px;
     background-color: white;
     margin-left: 100px;
